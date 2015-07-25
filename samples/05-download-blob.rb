@@ -4,8 +4,8 @@ media_file_name = 'H264_test3_Talkingheadclipped_mp4_480x360.mp4'
 
 require 'azure'
 
-Azure.config.storage_account_name = "mediasvc08bm49x890xlh"
-Azure.config.storage_access_key   = "H0o3j/luiP1MulSD679c2KHUJwyTCY/ovKGsHewA7fP0k4ev0/aKtr323sR6oumkD1nFsXOgEMzM937RVrEtNA=="
+Azure.config.storage_account_name = "wiprolimited"
+Azure.config.storage_access_key   = "RMyPBtvvMZ8fZxRhd+lonW5/ZP4sxlQfWFJrvxv9y/oANm4qH2ipfLqOp9Soc/z3UtN85Nm1yS3ikwS94HULMw=="
 
 azure_blob_service = Azure::BlobService.new
 
